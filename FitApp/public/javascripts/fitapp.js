@@ -1,7 +1,7 @@
 /**
  * Created by liuye on 10/21/15.
  */
-var socket = io.connect('http://localhost');
+var socket = io.connect('/');
 
 $(document).ready(function() {
     $('.carousel').carousel();
